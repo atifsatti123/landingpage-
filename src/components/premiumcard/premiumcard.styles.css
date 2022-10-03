@@ -1,0 +1,137 @@
+.premium-card-plan h3{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    
+}
+.premium-card-price{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 115%;
+
+}
+.bgwhite{
+    color: white;
+}
+.bgblack{
+color: black;
+}
+.premium-card-description{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 200%;
+letter-spacing: -0.05em;
+width: 298px;
+height: 96px;
+}
+
+   
+.premium-card-content{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px;
+gap: 32px;
+
+width: 362px;
+height: 630;
+
+background: #FFFFFF;
+box-shadow: 0px 8px 80px rgba(167, 167, 167, 0.24);
+border-radius: 16px;
+color:#000;
+}
+.greenback{
+    background-color: #05796B;
+    color:#fff;
+}
+.premium-button{
+background: #FFFFFF;
+border: 1px solid rgba(255, 255, 255, 0.32);
+box-shadow: 0px 48px 80px rgba(0, 0, 0, 0.4);
+border-radius: 80px;
+width: 298px;
+height: 57px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #000;
+}
+.premium-card-lists li{
+    padding-bottom: 15px;
+    list-style: none;
+}
+.premium-card-lists ul {
+    line-height: 2.2rem;
+    margin: 0;
+    padding-left: 2.2rem;
+    list-style: none;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 1.8rem;
+    
+}
+.subscribe{
+    
+
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 115%;
+
+}
+
+#basic-list-0,
+#basic-list-1 {
+    background-image: url("../../images/greentick.png");
+
+}
+
+#basic-list-2,
+#basic-list-3 {
+    background-image: url("../../images/redtick.png");
+}
+
+#basic-list-2 li,
+#basic-list-3 li {
+    opacity: .3;
+
+}
+
+.pro {
+    background-image: url("../../images/whitetick.png");
+
+
+}
+
+@media (max-width:320px) {
+    .premium-card-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 32px;
+        gap: 32px;
+        width: 95%;
+        text-align: center;
+        
+    }
+    .premium-button {
+       
+        border-radius: 50px;
+        width: 197px;
+        height: 57px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000;
+    }
+}

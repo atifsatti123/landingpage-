@@ -1,0 +1,143 @@
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+   
+}
+.listing{
+    display: flex;
+    flex-direction: column;
+}
+.footer p{
+    text-align: center;
+    padding-top: 50px;   
+}
+.fa-brands {
+    padding-right: 15px;
+    font-size: 22px;
+    margin-top: 20px;
+        
+    }
+
+.column-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.column-content ul li {
+    padding: 0;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+color: #181433;
+}
+.column-content1 h6{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 28px;
+letter-spacing: -0.02em;
+color: #1B1C31;
+margin-top: 33px;
+    margin-bottom: 10px;
+}
+.column-content1 p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: #757095;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.listing h5{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 24px;
+color: #181433;
+margin-top: 32px;
+    margin-bottom: 20px;
+
+}
+
+
+@media (max-width:767px){
+    .row{
+    
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .row .column {
+        width: 100%;
+    }
+    .row .column1 {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:768px){
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .column {
+        width: 33.33%;
+    }
+}
+@media (max-width:576px){
+    .row .column1 {
+        width: 100%;
+        text-align: center;
+    }
+    .row .column {
+       text-align: center;
+    }
+}
+@media (max-width:320px){
+    .row {
+       
+        padding-top: 30px;
+    }
+    .column-content1 h6 {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+}
+.column-content1 p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #757095;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.fa-brands {
+    padding-right: 15px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.listing h5 {
+  
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    
+    
+}
+}

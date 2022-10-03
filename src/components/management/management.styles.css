@@ -1,0 +1,261 @@
+.management-content {
+    padding-top: 70px;
+}
+.management-content h6{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+text-transform: uppercase;
+color: #F57059;
+margin-bottom: 0;
+}
+.management-content p{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+letter-spacing: -0.03em;
+color: #000000;
+margin-top: 0;
+margin-bottom: 0;
+}
+.nav-wrapper .my-nav {
+    padding: 0;
+    margin: 0;
+}
+.management-content span{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+text-align: center;
+letter-spacing: -0.02em;
+color: #757095;
+display: block;
+padding-top: 20px;
+}
+.btn1{
+    margin-right: 15px;
+}
+.btn1 button{
+border-radius: 80px;
+background: #F57059;
+    width: 189px;
+    height: 55px;
+    color:#fff;
+    margin-bottom: 55px;
+    margin-top: 42px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn1 button i{
+    padding-right: 8px;
+    margin-top: 1px;
+}
+.btn2 button{
+    border-radius: 80px;
+    background: #05796B;
+    width: 189px;
+    height: 55px;
+    color:#fff;
+    margin-bottom: 55px;
+    margin-top: 42px;
+    border: none;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn2 button i{
+    padding-right: 8px;
+    margin-top: 1px;
+}
+.btn-wrap{
+    display: flex;
+    justify-content: center;
+   
+}
+@media (max-width:1024px) {
+    .btn1 button i {
+        padding-right: 8px;
+        margin-top: 0px;
+    }
+    .btn2 button {
+        border: none;
+        margin-right: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.btn1 button {
+    border-radius: 80px;
+    background: #F57059;
+    width: 189px;
+    height: 55px;
+    color: #fff;
+    margin-bottom: 55px;
+    margin-top: 42px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn2 button i {
+    padding-right: 5px;
+    margin-top: 1px;
+}
+.fa-brands {
+    padding-right: 15px;
+    font-size: 18px;
+    
+}
+.management-content p {
+    
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #000000;
+    margin-top: 13px;
+    margin-bottom: 0;
+}
+}
+@media (max-width:768px) {
+    .management-content p {
+       
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 39px;
+        margin-top: 5px;
+    }
+    .management-content span {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+}
+.btn1 button {
+    border-radius: 80px;
+   
+    width: 180px;
+    height: 51px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-brands {
+    padding-right: 15px;
+    font-size: 16px;
+}
+.btn1 button i {
+    padding-right: 5px;
+    margin-top: 1px;
+}
+.btn2 button i {
+    padding-right: 5px;
+    margin-top: 1px;
+}
+.btn1 {
+    margin-right: 15px;
+}
+.btn2 button {
+    border-radius: 80px;
+    background: #05796B;
+    width: 180px;
+    height: 51px;
+    color: #fff;
+    margin-bottom: 55px;
+    margin-top: 42px;
+    border: none;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+@media (max-width:768px) {
+    .management-content p {
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 35px;
+        margin-top: 5px;
+    }
+}
+@media (max-width:320px) {
+    .management-content h6 {
+        
+        font-weight: 700;
+        font-size: 12px;
+}
+.management-content p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 8px;
+}
+.management-content span {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 35px;
+    padding-top: 0px;
+}
+.btn-wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.btn1 button {
+    border-radius: 50px;
+    background: #F57059;
+    width: 170px;
+    height: 49px;
+    color: #fff;
+    margin-bottom: 55px;
+    margin-top: 42px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn1 button i {
+    padding-right: 9px;
+    margin-top: 0px;
+}
+.btn2 button {
+    border-radius: 50px;
+    background: #05796B;
+    width: 170px;
+    height: 49px;
+    color: #fff;
+    margin-bottom: 55px;
+    margin-top: 42px;
+    border: none;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn2 button i {
+    padding-right: 10px;
+    margin-top: 0px;
+}
+.fa-brands {
+    
+    font-size: 14px;
+   
+}
+}

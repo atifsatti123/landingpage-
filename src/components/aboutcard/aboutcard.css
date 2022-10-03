@@ -1,0 +1,56 @@
+.abt-card-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    left: 105px;
+    top: -7px;
+    background: #F6F6F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    position: absolute;
+}
+.abt-card-subtitle{
+    width: 70%;
+    text-align: center;
+}
+@media (max-width:768px) {
+    .circle {
+        width: 40px;
+        height: 40px;
+        left: 37px;
+        top: -2px;
+    }
+}
+@media (max-width:576px) {
+    .circle {
+        width: 36px;
+        height: 36px;
+        left: 9px;
+        top: -4px;
+    }
+    .about-content h1 {
+        font-weight: 600;
+        font-size: 25px;
+}
+}
+@media (max-width:320px) {
+    .abt-card-subtitle {
+        width: 93%;
+        text-align: center;
+        line-height: 23px;
+}
+.circle {
+    width: 35px;
+    height: 35px;
+    left: 66px;
+    top: 8px;
+}
+}

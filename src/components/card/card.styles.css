@@ -1,0 +1,30 @@
+
+.card-wrapper{
+    width: 23%;
+  max-width: 270px;
+ display: flex;
+    align-items: center;
+    justify-content: center;
+ background: #FFFFFF;
+ min-height: 240px;
+border: 1px solid #E7E7E7;
+ border-radius: 15px;
+ margin: 15px 0; 
+ padding: 15px;
+}
+.bg{
+    background-color: #05796B;;
+}
+
+@media (max-width:768px){
+    .card-wrapper{
+        width: 30%;
+    }
+}
+@media (max-width:576px){
+    .card-wrapper{
+        width: 48%;
+        min-height: auto;
+        padding: 20px 15px;
+    }
+}

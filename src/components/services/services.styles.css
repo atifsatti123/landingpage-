@@ -1,0 +1,74 @@
+.outer-wrapper{
+    position: relative;
+    width:100%;
+}
+.rainbow{
+    position: absolute;
+    width: 39%;
+    height: 91%;
+    right: 142px;
+    top: 89px;
+    background-image: url('../../images/pricing-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.services-content h2{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000;
+    margin: 0;
+    font-family: 'Glory', sans-serif;
+}
+.services-content p{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #000000;
+   
+    font-family: 'Manrope', sans-serif;
+}
+
+.services-content{
+    padding-top: 50px;
+}
+.service-wrapper{
+    max-width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+@media (max-width:768px) {
+    .services-content p {
+        
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .service-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+}     
+
+@media (max-width:320px){
+    .services-content p {
+        font-weight: 800;
+        font-size: 17px;
+        line-height: 24px;
+}
+.service-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}

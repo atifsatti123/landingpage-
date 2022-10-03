@@ -1,0 +1,126 @@
+
+.testimonial-content span{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+text-transform: uppercase;
+color: #3734A9;
+display: block;
+text-align: center;
+}
+.testimonial-content h1{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 52px;
+text-align: center;
+letter-spacing: -0.03em;
+color: #000000;
+
+}
+.testimonial-content{
+    margin-top: 110px;
+}
+.testimonial-wrapper{
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+.testimonial-right p{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 41px;
+letter-spacing: -0.02em;
+color: #1B1C31;
+}
+.segment-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width:1024px) {
+    .testimonial-right p {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 38px;
+        
+    }
+}
+@media (max-width:768px) {
+    .testimonial-content h1 {
+       
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 48px;
+    }
+    .testimonial-wrapper {
+        display: flex;
+        
+        flex-direction: column;
+    }
+    .testimonial-right p {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 34px;
+        letter-spacing: -0.02em;
+        color: #1B1C31;
+} 
+.segment-wrapper {
+    display: flex;
+    justify-content: space-between;
+} 
+.segment-left h6{
+    margin-top: 10px;
+}  
+}
+@media (max-width:320px) {
+    .testimonial-content span {
+       
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 17px;
+        
+    }
+    .testimonial-content h1 {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+}
+.testimonial-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.testimonial-left img{ 
+    width: 100%;
+}
+.testimonial-right {
+    width:80%;
+}
+.testimonial-right p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    color: #1B1C31;
+}
+.segment-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.segment-left h6{
+    margin-top: 10px;
+
+}
+.segment-right img{
+width:80%;
+}
+}
